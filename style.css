@@ -1,0 +1,102 @@
+.body{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+}
+
+.head {
+    text-align: center;
+}
+.head h1{
+    font-size: 40px;
+}
+.head h3{
+ font-size: 25px;;
+}
+input,button{
+    width:100%;
+    padding:4px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(228, 217, 217);
+    margin:5px;
+    padding:4px 10px;
+    /* transition: .3s; */
+}
+button{
+    padding:8px auto;
+    height: 40px;
+    background-color: antiquewhite;
+}
+input:hover{
+    transform: scale(1.1);
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: antiquewhite;
+}
+
+
+.total-cost{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total-cost input{
+    width:20%;
+    
+}
+#Total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: aquamarine;
+    width:15%;
+    border-radius: 20px;
+    height: 30px;
+    padding:4px 10px;
+    /* margin: ; */
+}
+#Total::before{
+content:'Total : ';
+
+font-size: 14px;
+}
+/* button{
+    padding:8px 0;
+    height: 40px;
+    font-size: 15px;
+}
+button:hover{
+    background-color: beige;
+    letter-spacing: 2px;
+} */
+.search{
+    display: flex;
+    justify-content: space-between;
+
+}
+.search button{
+    width:45%
+}
+
+/* .btn-clr{
+    background-color: ;
+} */
+table{
+    width:100%;
+    text-align: center;
+    margin:10px 0;
+}
+
+tr,td{
+    padding:5px;
+}
+
